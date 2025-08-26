@@ -3,7 +3,7 @@ from flask_restful import Resource
 from marshmallow import ValidationError
 
 from models.instituicao import Instituicao, InstituicaoSchema
-from backend_api.helpers.database import db
+from helpers.database import db
 
 # Schema para usar na validação
 instituicao_schema = InstituicaoSchema()

@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_restful import Api
-from config import Config
+from config import Config # <-- CORREÇÃO APLICADA AQUI
 
 # Cria a instância da aplicação Flask
 app = Flask(__name__)
